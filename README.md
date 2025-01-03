@@ -1,1 +1,1 @@
-# First-hackathon
+# Collabrating Tradition with Technology
