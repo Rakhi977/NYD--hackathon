@@ -1,1 +1,1 @@
-# Collabrating Tradition with Technology
+# Where Ancient wisdom collabrating with technology
