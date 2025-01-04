@@ -5,7 +5,7 @@ import json
 
 # Load Data Function
 def load_data():
-    # Replace with your actual file paths
+    # add your file path
     gita_file = ("Bhagwad_Gita.csv")
     pys_file = ("Patanjali_Yoga_Sutras_Verses_English_Questions.csv")
     # Load the data using pandas, 
@@ -16,15 +16,16 @@ def load_data():
     print("Columns in Gita file:", gita.columns)
     print("Columns in PYS file:", pys.columns)
 
-    # Adjust the column names below as per your file
-    gita_texts = gita["translation"].tolist()  # Replace 'Text' with your actual Gita column name
-    pys_texts = pys["translation"].tolist()    # Replace 'Text' with your actual PYS column name
-
+    # column name from Gita 
+    gita_texts = gita["translation"].tolist()
+    # column name from PYS
+    pys_texts = pys["translation"].tolist()
+    
     return gita_texts, pys_texts
 
-# Create Embeddings and Build FAISS Index
+# Create Embeddings and faiss index
 def create_faiss_index(texts, model_name="all-MiniLM-L6-v2"):
-    # Load the Sentence Transformer model
+    # Loading the Sentence Transformer model
     model = SentenceTransformer(model_name)
 
     # Create embeddings for the texts
@@ -42,7 +43,7 @@ def retrieve_shlokas(query, texts, model, index, top_k=3):
     # Generate query embedding
     query_embedding = model.encode([query], convert_to_tensor=False)
 
-    # Search for the top_k most similar texts
+    # Search for the most similar texts
     distances, indices = index.search(query_embedding, top_k)
 
     # Retrieve and return the top results
