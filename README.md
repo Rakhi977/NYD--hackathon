@@ -37,23 +37,22 @@ This project was developed for **The NYD Hackathon 2025**, which challenged part
 # Usage
 
 1.**Enter your query**
--run the program and input the query
-`Enter your query: What gita says about selflessness?`
+- run the program and input the query
 
 2.**Getting the result**
 - the output will display with the top relevant shlokas
--the result will be saved in `results.json`
+- the result will be saved in `results.json`
 
 
 # Architecture
 the pipeline follows the steps:
 
--Data Preprocessing
--Embedding Generation
--Information Retrieval (using FAISS)
--Query Expansion and Ranking
--Answer Generation
--JSON Output
+- Data Preprocessing
+- Embedding Generation
+- Information Retrieval (using FAISS)
+- Query Expansion and Ranking
+- Answer Generation
+- JSON Output
 
 ## Dataset
 The project uses two primary datasets:
