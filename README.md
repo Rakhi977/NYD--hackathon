@@ -70,7 +70,7 @@ Both datasets are stored as CSV files with columns such as `chapter`, `verse`, `
  
 # Contributors
 This project was developed by the following team members during the NYD Hackathon 2025:
-- Rakhi
+- Rakhi Prajapati
 - Anjali Yadav
 - Piyush Gautam
 
