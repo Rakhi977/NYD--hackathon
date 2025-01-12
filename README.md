@@ -1,6 +1,6 @@
 # Where Ancient wisdom collabrating with technology
-    A Retrieval-Augmented Generation (RAG) pipeline to answer user queries based on Bhagavad Gita and Patanjali Yoga Sutras. The system retrieves relevant shlokas and generates a summarized response using open-source tools and models.
-# Table of Contents
+    A Retrieval-Augmented Generation (RAG) pipeline to answer user queries based on Bhagavad Gita and Patanjali Yoga Sutras. 
+# Table of contents
 - [Introduction]
 - [Features]
 - [Installation]
@@ -48,12 +48,12 @@ This project was developed for **The NYD Hackathon 2025**, which challenged part
 # Architecture
 the pipeline follows the steps:
 
--1.Data Preprocessing
--2.Embedding Generation
--3.Information Retrieval (using FAISS)
--4.Query Expansion and Ranking
--5.Answer Generation
--6.JSON Output
+-Data Preprocessing
+-Embedding Generation
+-Information Retrieval (using FAISS)
+-Query Expansion and Ranking
+-Answer Generation
+-JSON Output
 
 ## Dataset
 The project uses two primary datasets:
