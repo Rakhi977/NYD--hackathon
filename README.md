@@ -55,7 +55,7 @@ the pipeline follows the steps:
 - Answer Generation
 - JSON Output
 
-## Dataset
+## Datasets
 The project uses two primary datasets:
 - **Bhagavad Gita**: Translation of all chapters.
 - **Patanjali Yoga Sutras**: Translations of all verses.
