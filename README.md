@@ -20,7 +20,7 @@ This project was developed for **The NYD Hackathon 2025**, which challenged part
 - Configurable similarity score for precision.
 - **Multi-source Retrieval**: Retrieves verses from both Bhagavad Gita and Patanjali Yoga Sutras.
 
-- 
+
 # Installation
 1.**Install dependencies**:
 - Install Python packages using pip
@@ -31,7 +31,7 @@ This project was developed for **The NYD Hackathon 2025**, which challenged part
 - `Patanjali_Yoga_Sutras_Verses_English_Questions.csv`
   
 3.**Run the script**:
-- named as python main.py
+- using python main.py `as example`
 
 
 # Usage
