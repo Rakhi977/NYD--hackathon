@@ -42,7 +42,7 @@ This project was developed for **The NYD Hackathon 2025**, which challenged part
 
 2.**Getting the result**
 - the output will display with the top relevant shlokas
-`json output
+json output
    {
     "query": "what gita says about selflessness?",
     "results": [
@@ -65,12 +65,12 @@ This project was developed for **The NYD Hackathon 2025**, which challenged part
             "score": 0.9997164607048035
         }
     ]
-}`
+
    
 -the result will be saved in `results.json`
 
 
-#Architecture
+# Architecture
 the pipeline follows the steps:
 
 `1.Data Preprocessing
