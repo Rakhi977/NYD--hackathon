@@ -17,10 +17,11 @@ This project was developed for **The NYD Hackathon 2025**, which challenged part
 - **JSON-formatted** output for easy integration.
 - Configurable similarity score for precision.
 - **Multi-source Retrieval**: Retrieves verses from both Bhagavad Gita and Patanjali Yoga Sutras.
-# Instalation
+# Installation
 **Install dependencies**:
 - Install Python packages using pip
+  
 **Prepare datasets**:
     Download the following CSV files and place them in the root directory:
-    - 'Bhagwad_Gita.csv'
-    - 'Patanjali_Yoga_Sutras_Verses_English_Questions.csv'
+    -`Bhagwad_Gita.csv`
+    -`Patanjali_Yoga_Sutras_Verses_English_Questions.csv`
