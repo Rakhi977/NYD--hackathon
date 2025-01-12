@@ -8,7 +8,8 @@
 - [Architecture]
 - [Dataset]
 - [Results]
-- [Contributing]
+- [Contributor]
+- [Future work]
   
 # Introduction
 This project was developed for **The NYD Hackathon 2025**, which challenged participants to build a pipeline that retrieves relevant verses (shlokas) from spiritual texts and generates answers to user queries.
@@ -66,3 +67,15 @@ Both datasets are stored as CSV files with columns such as `chapter`, `verse`, `
 - **Sample Query**:
     - Query: what gita says about selflessness?
     - Retrieved Verse: "He sees, who sees that all actions are performed solely by Nature and that the Self is without action."`
+ 
+# Contributors
+This project was developed by the following team members during the NYD Hackathon 2025:
+- Rakhi
+- Anjali Yadav
+- Piyush Gautam
+
+# Future work
+- Fine-tune the Sentence Transformer model for more accurate retrieval.
+- Incorporate additional spiritual texts.
+- Deploy the project as a web app for public access.
+- Optimize the pipeline for faster query processing.
