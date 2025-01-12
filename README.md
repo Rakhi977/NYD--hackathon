@@ -22,6 +22,7 @@ This project was developed for **The NYD Hackathon 2025**, which challenged part
 - Install Python packages using pip
   
 **Prepare datasets**:
-    Download the following CSV files and place them in the root directory:
+- Download the following CSV files and place them in the root directory:
     -`Bhagwad_Gita.csv`
+  
     -`Patanjali_Yoga_Sutras_Verses_English_Questions.csv`
